@@ -22,7 +22,7 @@ The file **"package.json"** should have the structure following:
 
 * Add in "scripts" -> "heroku-postbuild".
 * Modify "rxjs": "^6.0.0" to "rxjs": "6.0.0" in dependencies.
-* Add in "dependencies" -> "@angular/cli","@angular/compiler-cli" of "devDependencies" section.
+* Add in "dependencies" -> "@angular/cli","@angular/compiler-cli" from "devDependencies" section.
 * Add in "devDependencies" -> "typescript"
 * Add the "engines" section, the "node" version is consulted with the node -v command and the "npm" version with the npm -v command.
 
